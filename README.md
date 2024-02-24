@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: https://www.frontendmentor.io/solutions/nft-preview-card-component-vpzwGSKXsR
+- Solution URL: https://www.frontendmentor.io/solutions/profile-card-component-nPiys-4SdQ
 - Live Site URL: https://front-mentor-profile-card-component.netlify.app/
 
 ### Built with
