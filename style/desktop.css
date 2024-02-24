@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Kumbh Sans", sans-serif;
+}
+
+:root {
+   --Dark-cyan: hsl(185, 75%, 39%);
+   --Very-dark-desaturated-blue: hsl(229, 23%, 23%);
+   --Dark-grayish-blue: hsl(227, 10%, 46%);
+   --Dark-gray: hsl(0, 0%, 59%);
+}
+
+body {
+    width: 100%;
+    max-height: 100dvh;
+    background-color: var(--Dark-cyan);
+    overflow: hidden;
+}
+
+.background {
+    width: 100%;
+    max-height: 100dvh;
+    display: flex;
+    overflow: hidden;
+}
+
+.background img {
+    width: 65%;
+}
+
+.bg-top {
+    position: absolute;
+    left: -17%;
+    top: -65%;
+}
+
+.bg-bottom {
+    position: absolute;
+    width: 60%;
+    right: -14%;
+    bottom: -82%;
+}
+
+main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 24%;
+    min-height: 52.0%;
+    border-radius: 11px;
+    background-color: white;
+    box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.2)
+}
+
+.card-bg {
+    border-top-left-radius: 11px;
+    border-top-right-radius: 11px;
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.card-part-2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.avatar img {
+    border-radius: 50%;
+    border: 4px solid white;
+    margin-top:-50%;
+}
+
+.card-part-2 div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.avatar-info {
+    flex-direction: column; 
+    padding: 20px 0px 30px;
+}
+
+.avatar-info h1 {
+    font-size: 1.01em;
+    font-weight: 900;
+    padding-bottom: 10px;
+}
+
+.avatar-info span {
+    font-size: 0.75em;
+    font-weight: 700;
+}
+
+.avatar-info h1 span {
+    font-size: 1em;
+    font-weight: 700;
+    padding-left: 5px;
+}
+
+hr {
+    color: rgba(0, 0, 0, 0.322);
+    width: 98%;
+    padding-bottom: 10px;
+}
+
+.profile-status{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 0px;
+    margin-top: 11px;
+}
+
+.profile-status div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    width: 30%;
+    line-height: 10px;
+}
+
+h1 {
+    color: var(--Very-dark-desaturated-blue);
+}
+
+span {
+    color: var(--Dark-gray);
+}
+
+.profile-status h1 {
+    font-size: 1em;
+    font-weight: 900;
+}
+
+.profile-status span {
+    font-size: 0.65em;
+}
+
+

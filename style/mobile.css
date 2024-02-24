@@ -1,0 +1,19 @@
+@media  only screen and (max-width: 600px) {
+    .card {
+        width: 88%;
+    }
+
+    .background img {
+        width: 100%;
+    }
+
+    .bg-top {
+        left: -47%;
+        top: -30%;
+    }
+    
+    .bg-bottom {
+        right: -47%;
+        bottom: -30%;
+    }
+}
